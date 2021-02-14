@@ -1,0 +1,67 @@
+SUMMARY = "Packages to build for red container"
+
+inherit packagegroup
+
+RDEPENDS_${PN} = " \
+    apache2 \
+    bash \
+    bc \
+    bzip2 \
+    ca-certificates \
+    cpio \
+    curl \
+    diffoscope \
+    dropbear \
+    ed \
+    findutils \
+    gawk \
+    gcc \
+    git \
+    go \
+    grep \
+    gzip \
+    htop \
+    iptables \
+    less \
+    libarchive \
+    libtool \
+    lighttpd \
+    lsb-release \
+    lsof \
+    m4 \
+    mariadb \
+    mc \
+    meson \
+    nano \
+    nginx \
+    ninja \
+    openssh \
+    opkg \
+    opkg-utils \
+    orc \
+    patch \
+    perl \
+    pigz \
+    pkgconf \
+    postgresql \
+    python3 \
+    python3-jinja2 \
+    python3-numpy \
+    quilt \
+    ruby \
+    rsync \
+    sed \
+    strace \
+    subversion \
+    sudo \
+    squashfs-tools \
+    tar \
+    unzip \
+    valgrind \
+    vim \
+    wget \
+    which \
+    xz \
+    zip \
+    zstd \
+"
