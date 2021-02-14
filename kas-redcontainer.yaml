@@ -1,0 +1,22 @@
+header:
+  version: 10
+machine: redcontainerx86-64
+distro: redcontainer
+target:
+  - redcontainer-image
+  - packagegroup-redcontainer
+repos:
+  meta-redcontainer:
+  poky:
+    url: https://git.yoctoproject.org/git/poky
+    refspec: 6b24d3fc583a87fb4284ce00256e8069345c9f3a
+    layers:
+      meta:
+      meta-poky:
+      meta-yocto-bsp:
+  meta-openembedded:
+    url: http://git.openembedded.org/meta-openembedded
+    refspec: 7206f7f5bc3a676f3e38b165c7a74afc170043ba
+    layers:
+      meta-oe:
+      meta-webserver:
