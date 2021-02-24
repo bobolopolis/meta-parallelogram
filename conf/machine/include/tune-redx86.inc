@@ -8,7 +8,7 @@ require conf/machine/include/tune-core2.inc
 
 # Extra tune features
 TUNEVALID[redx86] = "Enable red container specific processor optimizations"
-TUNE_CCARGS .= "${@bb.utils.contains('TUNE_FEATURES', 'redx86', ' -march=nehalem -mtune=generic -mfpmath=sse', '', d)}"
+TUNE_CCARGS .= "${@bb.utils.contains('TUNE_FEATURES', 'redx86', ' -march=x86-64 -mtune=generic -mfpmath=sse -mmmx -msse -msse2 -msse3 -mssse3', '', d)}"
 
 # Extra tune selections
 AVAILTUNES += "redx86-64"
