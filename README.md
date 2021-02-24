@@ -1,5 +1,5 @@
-The [kas](https://github.com/bobolopolis/meta-redcontainer.git) tool can be
-used to perform a build.
+The [kas](https://github.com/siemens/kas) tool can be used to perform a
+build.
 
 	mkdir redcontainer
 	cd redcontainer
