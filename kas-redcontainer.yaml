@@ -9,14 +9,14 @@ repos:
   meta-redcontainer:
   poky:
     url: https://git.yoctoproject.org/git/poky
-    refspec: 6b24d3fc583a87fb4284ce00256e8069345c9f3a
+    refspec: 41ee3602ed54776a3130333e70bf36437c0bae19
     layers:
       meta:
       meta-poky:
       meta-yocto-bsp:
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
-    refspec: 7206f7f5bc3a676f3e38b165c7a74afc170043ba
+    refspec: 5ea2c6330e14ffc77c4473ac898cbcc9e49f57bf
     layers:
       meta-oe:
       meta-webserver:
