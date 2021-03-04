@@ -48,6 +48,7 @@ RDEPENDS_${PN} = " \
     python3 \
     python3-jinja2 \
     python3-numpy \
+    qemu \
     quilt \
     ruby \
     rsync \
