@@ -8,6 +8,7 @@ RDEPENDS_${PN} = " \
     bc \
     bzip2 \
     ca-certificates \
+    cmake \
     cpio \
     curl \
     diffoscope \
