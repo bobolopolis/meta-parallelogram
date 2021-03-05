@@ -26,6 +26,7 @@ RDEPENDS_${PN} = " \
     flex \
     gawk \
     gcc \
+    gdb \
     git \
     go \
     grep \
