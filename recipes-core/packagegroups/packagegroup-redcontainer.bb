@@ -33,6 +33,7 @@ RDEPENDS_${PN} = " \
     gzip \
     htop \
     iptables \
+    json-c \
     less \
     libarchive \
     libtool \
