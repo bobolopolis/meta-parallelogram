@@ -12,6 +12,7 @@ RDEPENDS_${PN} = " \
     bison \
     bzip2 \
     ca-certificates \
+    chrpath \
     cmake \
     coreutils \
     cpio \
