@@ -55,6 +55,7 @@ RDEPENDS_${PN} = " \
     opkg \
     opkg-utils \
     orc \
+    os-release \
     patch \
     perl \
     pigz \
