@@ -46,6 +46,7 @@ RDEPENDS_${PN} = " \
     mariadb \
     mc \
     meson \
+    mtools \
     nano \
     nasm \
     nginx \
