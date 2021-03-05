@@ -4,17 +4,25 @@ inherit packagegroup
 
 RDEPENDS_${PN} = " \
     apache2 \
+    autoconf \
+    autoconf-archive \
+    automake \
     bash \
     bc \
+    bison \
     bzip2 \
     ca-certificates \
     cmake \
+    coreutils \
     cpio \
     curl \
     diffoscope \
     dropbear \
     ed \
+    ell \
+    file \
     findutils \
+    flex \
     gawk \
     gcc \
     git \
@@ -26,14 +34,17 @@ RDEPENDS_${PN} = " \
     less \
     libarchive \
     libtool \
+    libxml2 \
     lighttpd \
     lsb-release \
     lsof \
     m4 \
+    make \
     mariadb \
     mc \
     meson \
     nano \
+    nasm \
     nginx \
     ninja \
     openssh \
@@ -59,6 +70,7 @@ RDEPENDS_${PN} = " \
     squashfs-tools \
     tar \
     unzip \
+    util-linux \
     valgrind \
     vim \
     wget \
