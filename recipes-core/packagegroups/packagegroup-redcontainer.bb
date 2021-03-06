@@ -36,6 +36,7 @@ RDEPENDS_${PN} = " \
     json-c \
     less \
     libarchive \
+    libpipeline \
     libtool \
     libxml2 \
     lighttpd \
