@@ -24,3 +24,6 @@ repos:
       meta-oe:
       meta-python:
       meta-webserver:
+local_conf_header:
+  meta-redcontainer: |
+    PACKAGE_CLASSES = "package_ipk"
