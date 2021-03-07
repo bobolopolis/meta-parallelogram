@@ -14,6 +14,9 @@ repos:
       meta:
       meta-poky:
       meta-yocto-bsp:
+  meta-clang:
+    url: https://github.com/kraj/meta-clang.git
+    refspec: 3fbc916a7987f15f874f40f9e5b531eb72bffc7a
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
     refspec: bb743fc71d3b0bc22b6c4a6ada44b63c38914dc4

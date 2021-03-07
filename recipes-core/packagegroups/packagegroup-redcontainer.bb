@@ -13,6 +13,7 @@ RDEPENDS_${PN} = " \
     bzip2 \
     ca-certificates \
     chrpath \
+    clang \
     cmake \
     coreutils \
     cpio \
