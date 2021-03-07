@@ -73,6 +73,7 @@ RDEPENDS_${PN} = " \
     screen \
     sed \
     strace \
+    stress-ng \
     subversion \
     sudo \
     squashfs-tools \
