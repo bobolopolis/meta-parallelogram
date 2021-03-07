@@ -1,4 +1,4 @@
-# Compile settings for an x86 red container. Enables additional instruction
+# Compile settings for an x86 container. Enables additional instruction
 # sets via -march to target most modern CPUs made in the last 10-15 years.
 
 DEFAULTTUNE ?= "redx86-64"
@@ -7,7 +7,7 @@ DEFAULTTUNE ?= "redx86-64"
 require conf/machine/include/tune-core2.inc
 
 # Extra tune features
-TUNEVALID[redx86] = "Enable red container specific processor optimizations"
+TUNEVALID[redx86] = "Enable parallelogram container specific processor optimizations"
 TUNE_CCARGS .= "${@bb.utils.contains('TUNE_FEATURES', 'redx86', ' -march=x86-64 -mtune=generic -mfpmath=sse -mmmx -msse -msse2 -msse3 -mssse3', '', d)}"
 
 # Extra tune selections

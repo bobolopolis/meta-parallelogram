@@ -1,12 +1,12 @@
 header:
   version: 10
-machine: redcontainerx86-64
-distro: redcontainer
+machine: parallelogramx86-64
+distro: parallelogram
 target:
-  - redcontainer-image
-  - packagegroup-redcontainer
+  - parallelogram-image
+  - packagegroup-parallelogram
 repos:
-  meta-redcontainer:
+  meta-parallelogram:
   poky:
     url: https://git.yoctoproject.org/git/poky
     refspec: a7e117c8ed063eb11266de3f696d12a2b7b9708e
@@ -25,5 +25,5 @@ repos:
       meta-python:
       meta-webserver:
 local_conf_header:
-  meta-redcontainer: |
+  meta-parallelogram: |
     PACKAGE_CLASSES = "package_ipk"

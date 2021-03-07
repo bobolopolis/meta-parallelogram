@@ -1,4 +1,4 @@
-SUMMARY = "Packages to build for red container"
+SUMMARY = "Packages to build for parallelogram"
 
 inherit packagegroup
 

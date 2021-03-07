@@ -1,4 +1,4 @@
-SUMMARY = "The red container image"
+SUMMARY = "The parallelogram base container image"
 
 IMAGE_FEATURES += "package-management"
 
