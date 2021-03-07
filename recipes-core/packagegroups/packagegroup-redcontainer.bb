@@ -70,6 +70,7 @@ RDEPENDS_${PN} = " \
     quilt \
     ruby \
     rsync \
+    screen \
     sed \
     strace \
     subversion \
