@@ -1,6 +1,7 @@
 # Include this file in a distro to enable link-time optimization. Some
 # packages are not compatible with LTO, disable it where needed.
 
+LTO_pn-alsa-lib = ""
 LTO_pn-apache2 = ""
 LTO_pn-apr = ""
 LTO_pn-binutils = ""
@@ -11,16 +12,22 @@ LTO_pn-elfutils = ""
 LTO_pn-gcc-runtime = ""
 LTO_pn-glibc = ""
 LTO_pn-go-runtime = ""
+LTO_pn-hdf5 = ""
 LTO_pn-libaio = ""
 LTO_pn-libgcc = ""
 LTO_pn-libgcc-initial = ""
 LTO_pn-libpipeline = ""
 LTO_pn-libsolv = ""
+LTO_pn-libtool = ""
 LTO_pn-libxcrypt = ""
 LTO_pn-mariadb = ""
 LTO_pn-perl = ""
 LTO_pn-pkgconf = ""
+LTO_pn-portaudio-v19 = ""
+LTO_pn-pulseaudio = ""
+LTO_pn-python3-dbus = ""
 LTO_pn-valgrind = ""
+LTO_pn-zeromq = ""
 
 LTO ?= "-flto"
 

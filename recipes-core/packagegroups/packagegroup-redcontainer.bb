@@ -58,10 +58,10 @@ RDEPENDS_${PN} = " \
     opkg-utils \
     orc \
     os-release \
+    packagegroup-meta-python3 \
     patch \
     perl \
     pigz \
-    pkgconf \
     postgresql \
     python3 \
     python3-jinja2 \
