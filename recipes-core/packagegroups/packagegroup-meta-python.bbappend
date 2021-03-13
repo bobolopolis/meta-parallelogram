@@ -1,6 +1,7 @@
 # Requires systemd in DISTRO_FEATURES
 RDEPENDS_packagegroup-meta-python3_remove = " \
     python3-blivet \
+    python3-blivetgui \
     python3-pystemd \
 "
 
