@@ -32,6 +32,7 @@ RDEPENDS_packagegroup-meta-oe-extended_remove = " \
 
 RDEPENDS_packagegroup-meta-oe-kernel = ""
 RDEPENDS_packagegroup-meta-oe-kernel_remove = " \
+    bpftool \
     cpupower \
     turbostat \
     intel-speed-select \
