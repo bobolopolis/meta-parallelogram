@@ -9,17 +9,17 @@ repos:
   meta-parallelogram:
   poky:
     url: https://git.yoctoproject.org/git/poky
-    refspec: 31607360753c987e804a7ed1d0289e46c08a0f23
+    refspec: be1cf223bf9c514ee81820ded5b13318458c0daf
     layers:
       meta:
       meta-poky:
       meta-yocto-bsp:
   meta-clang:
     url: https://github.com/kraj/meta-clang.git
-    refspec: d797409435d3b0e9f2859992439989ff1d81e66d
+    refspec: 9d89acd175067a828313b8b2a215e6f7595f61b5
   meta-openembedded:
     url: https://git.openembedded.org/meta-openembedded
-    refspec: d6ef4170747d6668fa940328334055eef3e1e1d6
+    refspec: 73d5cd5e8d9d8a922b6a8a9d90adf0470a99314e
     layers:
       meta-filesystems:
       meta-networking:
@@ -29,3 +29,7 @@ repos:
 local_conf_header:
   meta-parallelogram: |
     PACKAGE_CLASSES = "package_ipk"
+    DL_DIR = "/home/robert/yocto/downloads"
+    SSTATE_DIR = "/home/robert/yocto/sstate-cache"
+    #INHERIT += "buildhistory"
+    #USER_CLASSES = "image-mklibs image-prelink"
