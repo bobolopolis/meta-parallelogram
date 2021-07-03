@@ -59,8 +59,6 @@ RDEPENDS_${PN} = " \
     opkg-utils \
     orc \
     os-release \
-    packagegroup-meta-oe \
-    packagegroup-meta-python3 \
     patch \
     perl \
     pigz \
