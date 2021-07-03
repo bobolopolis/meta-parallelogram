@@ -29,6 +29,7 @@ RDEPENDS_${PN} = " \
     gcc \
     gdb \
     git \
+    gnupg \
     go \
     grep \
     gzip \
