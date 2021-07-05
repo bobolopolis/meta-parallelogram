@@ -68,6 +68,7 @@ RDEPENDS_${PN} = " \
     python3-numpy \
     qemu \
     quilt \
+    rpcsvc-proto \
     ruby \
     rsync \
     screen \
