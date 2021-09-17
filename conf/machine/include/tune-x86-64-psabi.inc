@@ -10,7 +10,7 @@
 DEFAULTTUNE ?= "x86-64-v2"
 
 # Include the previous tune to pull in PACKAGE_EXTRA_ARCHS
-require conf/machine/include/tune-core2.inc
+require conf/machine/include/x86/tune-core2.inc
 
 # Extra tune features
 TUNEVALID[x86-64-v2] = "Enable x86-64-v2 psABI specific processor optimizations"
@@ -18,27 +18,27 @@ TUNE_CCARGS .= "${@bb.utils.contains('TUNE_FEATURES', 'x86-64-v2', ' -march=x86-
 
 # Extra tune selections
 AVAILTUNES += "x86-64-v2"
-TUNE_FEATURES_tune-x86-64-v2 = "${TUNE_FEATURES_tune-x86-64} x86-64-v2"
-BASE_LIB_tune-x86-64-v2 = "lib64"
-TUNE_PKGARCH_tune-x86-64-v2 = "x86-64-v2"
-PACKAGE_EXTRA_ARCHS_tune-x86-64-v2 = "${PACKAGE_EXTRA_ARCHS_tune-core2-64} x86-64-v2"
-QEMU_EXTRAOPTIONS_x86-64-v2 = " -cpu Nehalem,check=false"
+TUNE_FEATURES:tune-x86-64-v2 = "${TUNE_FEATURES:tune-x86-64} x86-64-v2"
+BASE_LIB:tune-x86-64-v2 = "lib64"
+TUNE_PKGARCH:tune-x86-64-v2 = "x86-64-v2"
+PACKAGE_EXTRA_ARCHS:tune-x86-64-v2 = "${PACKAGE_EXTRA_ARCHS:tune-core2-64} x86-64-v2"
+QEMU_EXTRAOPTIONS:x86-64-v2 = " -cpu Haswell,check=false"
 
 
 TUNEVALID[x86-64-v3] = "Enable x86-64-v3 psABI specific processor optimizations"
 TUNE_CCARGS .= "${@bb.utils.contains('TUNE_FEATURES', 'x86-64-v3', ' -march=x86-64-v3', '', d)}"
 AVAILTUNES += "x86-64-v3"
-TUNE_FEATURES_tune-x86-64-v3 = "${TUNE_FEATURES_tune-x86-64} x86-64-v3"
-BASE_LIB_tune-x86-64-v3 = "lib64"
-TUNE_PKGARCH_tune-x86-64-v3 = "x86-64-v3"
-PACKAGE_EXTRA_ARCHS_tune-x86-64-v3 = "${PACKAGE_EXTRA_ARCHS_tune-core2-64} x86-64-v3"
-QEMU_EXTRAOPTIONS_x86-64-v3 = " -cpu Haswell,check=false"
+TUNE_FEATURES:tune-x86-64-v3 = "${TUNE_FEATURES:tune-x86-64} x86-64-v3"
+BASE_LIB:tune-x86-64-v3 = "lib64"
+TUNE_PKGARCH:tune-x86-64-v3 = "x86-64-v3"
+PACKAGE_EXTRA_ARCHS:tune-x86-64-v3 = "${PACKAGE_EXTRA_ARCHS:tune-core2-64} x86-64-v3"
+QEMU_EXTRAOPTIONS:x86-64-v3 = " -cpu Haswell,check=false"
 
 TUNEVALID[x86-64-v4] = "Enable x86-64-v4 psABI specific processor optimizations"
 TUNE_CCARGS .= "${@bb.utils.contains('TUNE_FEATURES', 'x86-64-v4', ' -march=x86-64-v4', '', d)}"
 AVAILTUNES += "x86-64-v4"
-TUNE_FEATURES_tune-x86-64-v4 = "${TUNE_FEATURES_tune-x86-64} x86-64-v4"
-BASE_LIB_tune-x86-64-v4 = "lib64"
-TUNE_PKGARCH_tune-x86-64-v4 = "x86-64-v4"
-PACKAGE_EXTRA_ARCHS_tune-x86-64-v4 = "${PACKAGE_EXTRA_ARCHS_tune-core2-64} x86-64-v4"
-QEMU_EXTRAOPTIONS_x86-64-v4 = " -cpu Skylake-Server,check=false"
+TUNE_FEATURES:tune-x86-64-v4 = "${TUNE_FEATURES:tune-x86-64} x86-64-v4"
+BASE_LIB:tune-x86-64-v4 = "lib64"
+TUNE_PKGARCH:tune-x86-64-v4 = "x86-64-v4"
+PACKAGE_EXTRA_ARCHS:tune-x86-64-v4 = "${PACKAGE_EXTRA_ARCHS:tune-core2-64} x86-64-v4"
+QEMU_EXTRAOPTIONS:x86-64-v4 = " -cpu Skylake-Server,check=false"
