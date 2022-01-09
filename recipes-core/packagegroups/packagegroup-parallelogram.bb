@@ -2,7 +2,7 @@ SUMMARY = "Packages to build for parallelogram"
 
 inherit packagegroup
 
-RDEPENDS_${PN} = " \
+RDEPENDS:${PN} = " \
     apache2 \
     autoconf \
     autoconf-archive \
