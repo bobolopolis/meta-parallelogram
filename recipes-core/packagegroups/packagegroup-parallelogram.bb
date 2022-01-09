@@ -54,6 +54,8 @@ RDEPENDS_${PN} = " \
     nasm \
     nginx \
     ninja \
+    openjdk-8 \
+    openjre-8 \
     openssh \
     opkg \
     opkg-utils \

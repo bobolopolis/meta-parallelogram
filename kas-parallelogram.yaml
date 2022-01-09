@@ -26,6 +26,9 @@ repos:
       meta-oe:
       meta-python:
       meta-webserver:
+  meta-java:
+    url: https://git.yoctoproject.org/git/meta-java
+    refspec: eeb136c64ecaa364d4e332d0182865dc65f2a83b
 local_conf_header:
   meta-parallelogram: |
     PACKAGE_CLASSES = "package_ipk"
