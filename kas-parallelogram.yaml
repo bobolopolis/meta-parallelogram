@@ -9,17 +9,17 @@ repos:
   meta-parallelogram:
   poky:
     url: https://git.yoctoproject.org/git/poky
-    refspec: c48097ece963ffb0387597fda6dd043951a8d598
+    refspec: 27ff420543f0195dab024698d804aca33f2ae139
     layers:
       meta:
       meta-poky:
       meta-yocto-bsp:
   meta-clang:
     url: https://github.com/kraj/meta-clang.git
-    refspec: e59b8f560a9e436f13588223c8f30c63d02ca3d8
+    refspec: d24837beb4005f7a006a31aed64fec9bc3fffb23
   meta-openembedded:
     url: https://git.openembedded.org/meta-openembedded
-    refspec: cf08deca8684054d93ab6c3a79ea762ff8af2f65
+    refspec: a558d51fecda3e66ace21d02b57ab61bf122fdc1
     layers:
       meta-filesystems:
       meta-networking:
