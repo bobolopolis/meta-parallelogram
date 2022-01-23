@@ -1,4 +1,5 @@
 # Use the stronger sha256 for verification.
 PACKAGECONFIG:append = " sha256"
-# Busybox wget is weird with https, use GNU wget
-RDEPENDS:${PN} += "wget"
+
+# Use curl over wget. We can configure curl to be smaller.
+PACKAGECONFIG:append = " curl"
