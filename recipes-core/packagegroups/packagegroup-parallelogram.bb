@@ -36,6 +36,7 @@ RDEPENDS:${PN} = " \
     grep \
     gzip \
     htop \
+    hwdata \
     iptables \
     json-c \
     less \
@@ -62,6 +63,7 @@ RDEPENDS:${PN} = " \
     orc \
     os-release \
     patch \
+    pciutils \
     perl \
     pigz \
     postgresql \
