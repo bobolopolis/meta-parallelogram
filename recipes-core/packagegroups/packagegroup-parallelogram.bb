@@ -16,7 +16,6 @@ RDEPENDS:${PN} = " \
     bzip2 \
     ca-certificates \
     chrpath \
-    clang \
     cmake \
     coreutils \
     cpio \
@@ -57,8 +56,6 @@ RDEPENDS:${PN} = " \
     nasm \
     nginx \
     ninja \
-    openjdk-8 \
-    openjre-8 \
     openssh \
     opkg \
     opkg-utils \
@@ -93,4 +90,7 @@ RDEPENDS:${PN} = " \
     xz \
     zip \
     zstd \
+"
+RDEPENDS:${PN}:append:x86 = " \
+    clang \
 "
