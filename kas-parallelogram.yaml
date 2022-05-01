@@ -10,23 +10,19 @@ repos:
   meta-parallelogram:
   poky:
     url: https://git.yoctoproject.org/git/poky
-    refspec: 7638fcf5c18975185fdc8c19fc4bf7fc55d9b044
+    refspec: 27de52e402ae000dfa502d52908cd6e6aef923ec
     layers:
       meta:
       meta-poky:
       meta-yocto-bsp:
-  meta-clang:
-    url: https://github.com/kraj/meta-clang.git
-    refspec: 6d4ebdff6099f80716acc99efc3e49b8e9ea9a39
+  meta-amateurradio:
+    url: https://github.com/adrians/meta-amateurradio.git
+    refspec: 69c02fdb80fd7d38c6574bcf6a1edcdca506a2f7
   meta-openembedded:
     url: https://git.openembedded.org/meta-openembedded
-    refspec: cf0ed4239196a76800f8c2facb5a285409b8147a
+    refspec: bb2b5b31a80eb164e47649036878773614e4dbdf
     layers:
-      meta-filesystems:
-      meta-networking:
       meta-oe:
-      meta-python:
-      meta-webserver:
 local_conf_header:
   meta-parallelogram: |
     PACKAGE_CLASSES = "package_ipk"
