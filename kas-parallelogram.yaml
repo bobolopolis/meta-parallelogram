@@ -10,17 +10,17 @@ repos:
   meta-parallelogram:
   poky:
     url: https://git.yoctoproject.org/git/poky
-    refspec: 27de52e402ae000dfa502d52908cd6e6aef923ec
+    refspec: d84c73d1ef05b7e12bcab2767f1a1f7a59ad17f2
     layers:
       meta:
       meta-poky:
       meta-yocto-bsp:
   meta-amateurradio:
     url: https://github.com/adrians/meta-amateurradio.git
-    refspec: 69c02fdb80fd7d38c6574bcf6a1edcdca506a2f7
+    refspec: 7301f39c042a7d1db5377ef10bb70010f7a9457e
   meta-openembedded:
     url: https://git.openembedded.org/meta-openembedded
-    refspec: bb2b5b31a80eb164e47649036878773614e4dbdf
+    refspec: 5357c7a40eaf8d1bcf7ff58edbba8e9527e40c7d
     layers:
       meta-python:
       meta-oe:
