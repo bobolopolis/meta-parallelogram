@@ -22,6 +22,7 @@ repos:
     url: https://git.openembedded.org/meta-openembedded
     refspec: bb2b5b31a80eb164e47649036878773614e4dbdf
     layers:
+      meta-python:
       meta-oe:
 local_conf_header:
   meta-parallelogram: |
