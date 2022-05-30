@@ -8,6 +8,9 @@ inherit packagegroup
 RDEPENDS:${PN} = " \
     direwolf \
     git \
+    mariadb-client \
+    mariadb-server \
+    mariadb-setupdb \
     python3 \
     python3-exifread \
     python3-geojson \
